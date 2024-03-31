@@ -1,7 +1,9 @@
-import React from "react";
+//import { useEffect, useState } from "react";
 
-const User = () => {
-  return <div>User</div>;
+const User = (name) => {
+
+
+  return <li>{name}</li>;
 };
 
 export default User;
